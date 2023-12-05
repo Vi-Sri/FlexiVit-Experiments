@@ -29,8 +29,8 @@ def create_vit_with_patch_size(new_patch_size):
 
     return net
 
-net_32x32 = create_vit_with_patch_size((32, 32))
-net_2x2 = create_vit_with_patch_size((2, 2))
+net_16x16 = create_vit_with_patch_size((16, 16))
+net_8x8 = create_vit_with_patch_size((8, 8))
 
 transform = transforms.Compose([
     transforms.Resize(224),
@@ -107,7 +107,7 @@ def train_student_with_distillation(rank, world_size, student_model, teacher_mod
     print('Finished Training Student')
     return epoch_accuracies
 
-accuracies_distillation = train_student_with_distillation(net_32x32, net_2x2, trainloader, testloader, epochs=30)
+accuracies_distillation = train_student_with_distillation(net_16x16, net_8x8, trainloader, testloader, epochs=30)
 epochs = range(1, 51)  
 plt.plot(epochs, accuracies_distillation, label='32x32 Distilled from 2x2')
 

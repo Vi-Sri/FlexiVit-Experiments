@@ -1,0 +1,62 @@
+Fri Dec  1 18:09:02 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100-PCIE-32GB           On  | 00000000:86:00.0 Off |                    0 |
+| N/A   38C    P0              25W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+    Serial Number                         : 0322918112909
+
+
+ + * * * * * * * * * * * * * * * * *
+122274 c3-1
+vit
+
+
+ + * * * * * * * * * * * * * * * * *
+Files already downloaded and verified
+Files already downloaded and verified
+/home/sriniana/anaconda3/envs/vit/lib/python3.8/site-packages/torch/_functorch/deprecated.py:58: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+/home/sriniana/anaconda3/envs/vit/lib/python3.8/site-packages/torch/_functorch/deprecated.py:58: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+
+Epoch for 32x32 - 1, Accuracy: 90.96%
+Epoch for 32x32 - 2, Accuracy: 90.72%
+Epoch for 32x32 - 3, Accuracy: 91.2%
+Epoch for 32x32 - 4, Accuracy: 90.99%
+Epoch for 32x32 - 5, Accuracy: 91.13%
+Epoch for 32x32 - 6, Accuracy: 90.95%
+Epoch for 32x32 - 7, Accuracy: 90.84%
+Epoch for 32x32 - 8, Accuracy: 91.0%
+Epoch for 32x32 - 9, Accuracy: 91.09%
+Epoch for 32x32 - 10, Accuracy: 90.57%
+Finished Training for patch size :  32x32
+
+Epoch for 16x16 - 1, Accuracy: 97.38%
+Epoch for 16x16 - 2, Accuracy: 97.35%
+Epoch for 16x16 - 3, Accuracy: 97.44%
+Epoch for 16x16 - 4, Accuracy: 97.46%
+Epoch for 16x16 - 5, Accuracy: 97.31%
+Epoch for 16x16 - 6, Accuracy: 97.25%
+Epoch for 16x16 - 7, Accuracy: 97.36%
+Epoch for 16x16 - 8, Accuracy: 97.26%
+Epoch for 16x16 - 9, Accuracy: 97.3%
+Epoch for 16x16 - 10, Accuracy: 97.35%
+Finished Training for patch size :  16x16
+
+
+

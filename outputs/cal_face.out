@@ -1,0 +1,57 @@
+Sat Dec  2 01:45:00 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA RTX A6000               On  | 00000000:86:00.0 Off |                  Off |
+| 30%   30C    P8              19W / 300W |      3MiB / 49140MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+    Serial Number                         : 1321221028648
+
+
+ + * * * * * * * * * * * * * * * * *
+122361 c4-3
+vit
+* * * * * * * * * * * * * * * * *
+/home/sriniana/anaconda3/envs/vit/lib/python3.8/site-packages/torch/_functorch/deprecated.py:58: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+/home/sriniana/anaconda3/envs/vit/lib/python3.8/site-packages/torch/_functorch/deprecated.py:58: UserWarning: We've integrated functorch into PyTorch. As the final step of the integration, functorch.vmap is deprecated as of PyTorch 2.0 and will be deleted in a future version of PyTorch >= 2.3. Please use torch.vmap instead; see the PyTorch 2.0 release notes and/or the torch.func migration guide for more details https://pytorch.org/docs/master/func.migrating.html
+  warn_deprecated('vmap', 'torch.vmap')
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|          | 0/10 [00:00<?, ?it/s]Epoch for 32x32 - 1, Accuracy: 91.2%
+ 10%|█         | 1/10 [01:43<15:33, 103.74s/it]Epoch for 32x32 - 2, Accuracy: 91.09%
+ 20%|██        | 2/10 [03:26<13:43, 102.93s/it]Epoch for 32x32 - 3, Accuracy: 91.08%
+ 30%|███       | 3/10 [05:08<11:57, 102.53s/it]Epoch for 32x32 - 4, Accuracy: 91.33%
+ 40%|████      | 4/10 [06:51<10:17, 102.86s/it]Epoch for 32x32 - 5, Accuracy: 90.84%
+ 50%|█████     | 5/10 [08:35<08:36, 103.21s/it]Epoch for 32x32 - 6, Accuracy: 91.21%
+ 60%|██████    | 6/10 [10:18<06:53, 103.27s/it]Epoch for 32x32 - 7, Accuracy: 91.05%
+ 70%|███████   | 7/10 [12:01<05:09, 103.03s/it]Epoch for 32x32 - 8, Accuracy: 90.76%
+ 80%|████████  | 8/10 [13:42<03:25, 102.51s/it]Epoch for 32x32 - 9, Accuracy: 91.01%
+ 90%|█████████ | 9/10 [15:23<01:41, 101.98s/it]Epoch for 32x32 - 10, Accuracy: 90.91%
+100%|██████████| 10/10 [17:05<00:00, 102.02s/it]100%|██████████| 10/10 [17:05<00:00, 102.56s/it]
+Finished Training for patch size :  32x32
+  0%|          | 0/10 [00:00<?, ?it/s]Epoch for 8x8 - 1, Accuracy: 84.68%
+ 10%|█         | 1/10 [10:10<1:31:30, 610.11s/it]Epoch for 8x8 - 2, Accuracy: 85.18%
+ 20%|██        | 2/10 [20:20<1:21:20, 610.11s/it]Epoch for 8x8 - 3, Accuracy: 85.48%
+ 30%|███       | 3/10 [30:32<1:11:16, 610.89s/it]Epoch for 8x8 - 4, Accuracy: 85.97%
+ 40%|████      | 4/10 [40:43<1:01:05, 610.92s/it]Epoch for 8x8 - 5, Accuracy: 85.38%
+ 50%|█████     | 5/10 [50:58<51:02, 612.48s/it]  Epoch for 8x8 - 6, Accuracy: 85.62%
+ 60%|██████    | 6/10 [1:01:09<40:48, 612.15s/it]Epoch for 8x8 - 7, Accuracy: 85.66%
+ 70%|███████   | 7/10 [1:11:21<30:35, 611.88s/it]Epoch for 8x8 - 8, Accuracy: 85.66%
+ 80%|████████  | 8/10 [1:21:32<20:23, 611.78s/it]Epoch for 8x8 - 9, Accuracy: 85.84%
+ 90%|█████████ | 9/10 [1:31:45<10:11, 611.97s/it]Epoch for 8x8 - 10, Accuracy: 85.42%
+100%|██████████| 10/10 [1:41:57<00:00, 612.20s/it]100%|██████████| 10/10 [1:41:57<00:00, 611.78s/it]
+Finished Training for patch size :  8x8

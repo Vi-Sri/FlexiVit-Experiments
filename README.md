@@ -10,13 +10,13 @@ cd flexivit/
 pip install -r requirements.txt
 ```
 
-These has all the plotting functions : 
-plot_mad.py
-plot_tsne.py
-plot_attn.py 
+These has all the plotting functions : <br> 
+plot_mad.py <br> 
+plot_tsne.py <br>
+plot_attn.py <br>
 visualize_linear_projections.py 
 
-These are the training codes :
-flexivit.py - Fine tune FlexiVit on CIFAR10
-flexivit_kd.py - Train flexvit with Knowledge distillation 
-flexivit_scratch.py - Train flexivit from scratch
+These are the training codes : <br> 
+flexivit.py - Fine tune FlexiVit on CIFAR10 <br>
+flexivit_kd.py - Train flexvit with Knowledge distillation <br> 
+flexivit_scratch.py - Train flexivit from scratch <br>
